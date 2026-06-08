@@ -83,16 +83,13 @@ nav ul li a:hover{
     line-height: 1.05;
     margin-bottom: 18px;
 }
-
 .hero-left .two {
     font-size: clamp(1.2rem, 3vw, 2rem);
     font-weight: 500;
     color: #CBD5E1;
-    display: block;
+    display: inline;
     line-height: 1.5;
-    max-width: 20ch;
 }
-
 .typed-cursor{
     color: white;
     display: inline;
