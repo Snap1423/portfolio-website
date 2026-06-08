@@ -18,15 +18,15 @@
     <nav>
         <div class="logo">Kushal's Portfolio</div>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Skills</li>
-            <li>Contact</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact-me">Contact</a></li>
         </ul>
     </nav>
     <main>
-        <section class="hero">
+        <section class="hero" id="home">
             <div class="hero-left">
                 <div class="one">Hi, I'm Kushal</div>
                 <div class="two">
@@ -43,16 +43,16 @@
         </section>
 
         <section class="about" id="about">
-            <h1 class="about-heading">About Me</h1>
+            <h1 class="about-heading reveal reveal-up">About Me</h1>
 
             <div class="about-container">
-                <div class="about-visual">
+                <div class="about-visual reveal reveal-left">
                     <div class="about-photo-frame">
                         <img src="dummy.jpg" alt="Kushal R">
                     </div>
                 </div>
 
-                <div class="about-left">
+                <div class="about-left reveal reveal-right">
                     <div class="info-block">
                         <h3 class="section-title">Biographical Information</h3>
                         <div class="info-item">
@@ -104,115 +104,183 @@
             </div>
         </section>
 
-        <section class="project">
-            <h1 class="heading">Projects</h1>
-            <div class="project-container">
-                <div class="project-card">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, impedit.</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus consectetur maxime inventore
-                        delectus fugiat veniam veritatis repudiandae optio tenetur sint.</p>
-                    <br>
-                    <button class="btnlp">Learn More</button>
+        <section class="project" id="projects">
+            <h1 class="heading reveal reveal-up">Projects</h1>
+            <div class="project-container reveal-group" data-stagger="0.14">
+                <div class="project-card reveal reveal-up reveal-item">
+                    <h4>Project One</h4>
+                    <p>A clean sample project card with short placeholder text for a simple portfolio preview.</p>
+                    <button class="btnlp" type="button">View Project</button>
                 </div>
-                <div class="project-card">
-                    <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, beatae.</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus consectetur maxime inventore
-                        delectus fugiat veniam veritatis repudiandae optio tenetur sint.</p>
-                    <br>
-                    <button class="btnlp">Learn More</button>
+                <div class="project-card reveal reveal-up reveal-item">
+                    <h4>Project Two</h4>
+                    <p>A modern showcase block with a brief description to highlight a project idea quickly.</p>
+                    <button class="btnlp" type="button">View Project</button>
                 </div>
-                <div class="project-card">
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quam!</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus consectetur maxime inventore
-                        delectus fugiat veniam veritatis repudiandae optio tenetur sint.</p>
-                    <br>
-                    <button class="btnlp">Learn More</button>
+                <div class="project-card reveal reveal-up reveal-item">
+                    <h4>Project Three</h4>
+                    <p>This card uses random placeholder content to keep the layout balanced and easy to scan.</p>
+                    <button class="btnlp" type="button">View Project</button>
+                </div>
+                <div class="project-card reveal reveal-up reveal-item">
+                    <h4>Project Four</h4>
+                    <p>A compact portfolio box designed for showing a title, a short summary, and one action.</p>
+                    <button class="btnlp" type="button">View Project</button>
+                </div>
+                <div class="project-card reveal reveal-up reveal-item">
+                    <h4>Project Five</h4>
+                    <p>Another sample project item with lightweight text that fits neatly inside the grid.</p>
+                    <button class="btnlp" type="button">View Project</button>
+                </div>
+                <div class="project-card reveal reveal-up reveal-item">
+                    <h4>Project Six</h4>
+                    <p>A final placeholder project card to complete the six-box layout in the section.</p>
+                    <button class="btnlp" type="button">View Project</button>
                 </div>
             </div>
         </section>
 
-        <section class="skills">
-            <h1 class="Skillsheading">Skills</h1>
-            <div class="skillsContainer">
-                <h3 class="pheading">Programming language</h3>
-                <span>🐍 Python</span>
-                <span>☕ Java</span>
-                <span>⚙️ C</span>
-                <span>⚡ JavaScript</span>
-                <span>🛢️ SQL</span>
-            </div>
-            <div class="skillsContainer2">
-                <h3 class="pheading2">Front-End Technologies</h3>
-                <span>🌐 HTML</span>
-                <span>🎨 CSS</span>
-                <span>⚛️ React</span>
-            </div>
-            <div class="skillsContainer3">
-                <h3 class="pheading3">Back-End Technologies</h3>
-                <span>🌱 Spring Boot</span>
-                <span>🟢 Node.js</span>
-                <span>🐬 MySQL</span>
-                <span>🐘 PostgreSQL</span>
-                <span>🍃 MongoDB</span>
-                <span>🚂 Express.js</span>
-            </div>
-            <div class="skillsContainer3">
-                <h3 class="pheading3">Artificial Intelligence & Machine Learning</h3>
-                <span>🤖 Machine Learning</span>
-                <span>📊 Pandas</span>
-                <span>🔢 NumPy</span>
-                <span>📈 Matplotlib</span>
-                <span>🌊 Seaborn</span>
-                <span>🧠 Scikit-learn</span>
-            </div>
-            <div class="skillsContainer4">
-                <h3 class="pheading4">Tools</h3>
-                <span>🖥️ VS Code</span>
-                <span>🐙 GitHub</span>
-                <span>📮 Postman</span>
-                <span>🛠️ Git</span>
+        <section class="skills" id="skills">
+            <h1 class="Skillsheading reveal reveal-up">Skills</h1>
+            <div class="skills-grid">
+                <div class="skillsContainer reveal reveal-left">
+                    <h3 class="pheading">Programming Languages</h3>
+                    <div class="skills-tags">
+                        <span>Python</span>
+                        <span>Java</span>
+                        <span>C</span>
+                        <span>JavaScript</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <div class="skillsContainer2 reveal reveal-right">
+                    <h3 class="pheading2">Front-End Technologies</h3>
+                    <div class="skills-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>React</span>
+                    </div>
+                </div>
+                <div class="skillsContainer3 reveal reveal-left">
+                    <h3 class="pheading3">Back-End Technologies</h3>
+                    <div class="skills-tags">
+                        <span>Spring Boot</span>
+                        <span>Node.js</span>
+                        <span>MySQL</span>
+                        <span>PostgreSQL</span>
+                        <span>MongoDB</span>
+                        <span>Express.js</span>
+                    </div>
+                </div>
+                <div class="skillsContainer3 reveal reveal-left">
+                    <h3 class="pheading3">AI &amp; Machine Learning</h3>
+                    <div class="skills-tags">
+                        <span>Machine Learning</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Matplotlib</span>
+                        <span>Seaborn</span>
+                        <span>Scikit-learn</span>
+                    </div>
+                </div>
+                <div class="skillsContainer4 reveal reveal-right">
+                    <h3 class="pheading4">Tools</h3>
+                    <div class="skills-tags">
+                        <span>VS Code</span>
+                        <span>GitHub</span>
+                        <span>Postman</span>
+                        <span>Git</span>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="contact-me">
-            <div class="contact-left">
+        <section class="contact-me" id="contact-me">
+            <div class="contact-left reveal reveal-left">
+                <span class="contact-tag">Contact</span>
                 <h1>Get In Touch.</h1>
                 <p>
-                    Interested in AI, Machine Learning,
-                    or Backend Development?
-                    Let's connect.
+                    Interested in AI, machine learning, backend systems, or full stack development?
+                    I am always open to meaningful conversations, collaboration, and new opportunities.
                 </p>
+                <div class="contact-note">
+                    Let&apos;s build something thoughtful, useful, and technically strong together.
+                </div>
             </div>
-            <div class="contact-right">
-                <div class="contact-item">
+            <div class="contact-right reveal reveal-right">
+                <a class="contact-item" href="" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-github"></i>
-                    GitHub
-                </div>
+                    <div>
+                        <h3>GitHub</h3>
+                        <p>Explore code, experiments, and personal builds.</p>
+                    </div>
+                </a>
 
-                <div class="contact-item">
+                <a class="contact-item" href="" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-linkedin"></i>
-                    LinkedIn
-                </div>
+                    <div>
+                        <h3>LinkedIn</h3>
+                        <p>Connect professionally and follow my journey.</p>
+                    </div>
+                </a>
 
-                <div class="contact-item">
+                <a class="contact-item" href="" target="_blank" rel="noopener noreferrer">
                     <i class="fa-solid fa-envelope"></i>
-                    Email
-                </div>
+                    <div>
+                        <h3>Email</h3>
+                        <p>Reach out for collaborations, internships, or projects.</p>
+                    </div>
+                </a>
 
-                <div class="contact-item">
+                <a class="contact-item" href="" target="_blank" rel="noopener noreferrer">
                     <i class="fa-solid fa-file"></i>
-                    Resume
-                </div>
+                    <div>
+                        <h3>Resume</h3>
+                        <p>View my background, skills, and technical experience.</p>
+                    </div>
+                </a>
+            </div>
         </section>
     </main>
-
     <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
-    <!-- Setup and start animation! -->
+
     <script>
         var typed = new Typed('.two', {
-            strings: ['Aspiring AI Researcher', 'Backend Developer', 'Curious Learner'],
+            strings: [
+                'Aspiring AI Researcher',
+                'Backend Developer',
+                'Curious Learner'
+            ],
             typeSpeed: 80,
             loop: true,
+        });
+    </script>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+
+            entries.forEach((entry) => {
+
+                if (entry.isIntersecting) {
+
+                    entry.target.classList.add('show');
+
+                } else {
+
+                    entry.target.classList.remove('show');
+
+                }
+
+            });
+
+        });
+
+        document.querySelectorAll(
+            '.reveal, .reveal-left, .reveal-right, .reveal-up'
+        ).forEach((el) => {
+
+            observer.observe(el);
+
         });
 
     </script>
@@ -226,3 +294,6 @@
     </footer>
 </body>
 </html>
+
+
+
